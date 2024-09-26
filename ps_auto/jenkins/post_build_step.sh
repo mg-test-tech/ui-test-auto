@@ -13,8 +13,8 @@ curl -D- -u development@test.com:${Password} -X POST --data '{"body": '"${Messag
 echo "-----------------Ends reporting to Jira---------------------------------------------------------"
 
 echo "-----------------Start reporting to XRay------------------------------------------------------"
-#bearer_id=$(curl -H "Content-Type: application/json" -X POST --data '{"client_id": '"${id}"',"client_secret": '"${secret}"'}' "https://xray.cloud.xpand-it.com/api/v1/authenticate")
-bearer_id=$(curl -H "Content-Type: application/json" -X POST --data '{"client_id": "2DFA0EE2A28B4B82BD0A7962E9B215B0","client_secret": "9b3fc231758b60b5f1c9e7b6e2b293c4efe68068de638202c536a5e3fe15f3e1"}' "https://xray.cloud.xpand-it.com/api/v1/authenticate")
+bearer_id=$(curl -H "Content-Type: application/json" -X POST --data '{"client_id": '"${id}"',"client_secret": '"${secret}"'}' "https://xray.cloud.xpand-it.com/api/v1/authenticate")
+
 in_token=${bearer_id}
 out_token=`echo ${in_token} | sed 's/.\(.*\)/\1/' | sed 's/\(.*\)./\1/'`
 
