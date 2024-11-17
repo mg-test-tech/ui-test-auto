@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Nov 17 16:55:29 GMT 2024","Sun Nov 17 16:55:35 GMT 2024","6054","","","","","","Navigate to Supported Product and assert text -- @1.1 ",""

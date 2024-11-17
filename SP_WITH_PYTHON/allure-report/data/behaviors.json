@@ -1,0 +1,22 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "sp_assessment",
+    "children" : [ {
+      "name" : "Navigate to Supported Product and assert text -- @1.1 ",
+      "uid" : "a825f84a4927cd20",
+      "parentUid" : "fcad5ce9863cea6956fda2c1ea4d203f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1731862529262,
+        "stop" : 1731862535316,
+        "duration" : 6054
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "https://www.matchingengine.com/", "https://www.matchingengine.com/repertoire-management-module/", "Repertoire Management Module", "Modules", "There are several types of Product Supported:" ]
+    } ],
+    "uid" : "fcad5ce9863cea6956fda2c1ea4d203f"
+  } ]
+}

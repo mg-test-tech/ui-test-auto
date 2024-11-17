@@ -1,0 +1,18 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Navigate to Supported Product and assert text -- @1.1 ",
+    "uid" : "a825f84a4927cd20",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1731862529262,
+      "stop" : 1731862535316,
+      "duration" : 6054
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "https://www.matchingengine.com/", "https://www.matchingengine.com/repertoire-management-module/", "Repertoire Management Module", "Modules", "There are several types of Product Supported:" ]
+  } ]
+}

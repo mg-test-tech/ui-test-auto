@@ -1,0 +1,11 @@
+[ {
+  "uid" : "a825f84a4927cd20",
+  "name" : "Navigate to Supported Product and assert text -- @1.1 ",
+  "time" : {
+    "start" : 1731862529262,
+    "stop" : 1731862535316,
+    "duration" : 6054
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

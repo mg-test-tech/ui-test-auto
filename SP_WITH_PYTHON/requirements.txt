@@ -1,0 +1,10 @@
+selenium~=4.26.1
+behave
+pdftotext
+tabula-py
+camelot-py[cv]
+sh
+softest
+xlrd
+func-timeout
+allure-python-commons~=2.13.5
