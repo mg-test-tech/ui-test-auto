@@ -11,4 +11,4 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run SP start script
-        run: bash ui-test-auto/SP_WITH_PYTHON/execute_test.sh
+        run: bash ./SP_WITH_PYTHON/execute_test.sh
