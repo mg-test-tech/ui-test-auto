@@ -3,13 +3,13 @@
   "name" : "packages",
   "children" : [ {
     "name" : "Navigate to Supported Product and assert text -- @1.1 ",
-    "uid" : "a825f84a4927cd20",
+    "uid" : "409aa7b11a6bcc94",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
-      "start" : 1731862529262,
-      "stop" : 1731862535316,
-      "duration" : 6054
+      "start" : 1741088909407,
+      "stop" : 1741088916060,
+      "duration" : 6653
     },
     "flaky" : false,
     "newFailed" : false,

@@ -4,7 +4,7 @@ from selenium.webdriver import ActionChains, Keys
 from selenium.webdriver.common.by import By
 from functions.app_functions import navigate_to_url
 from functions.common_functions import sleeping
-from functions.webdriver_functions import by_xpath, by_class, by_css, by_name, by_text, by_id, by_tag, all_by_tag
+from functions.webdriver_functions_old import by_xpath, by_class, by_css, by_name, by_text, by_id, by_tag, all_by_tag
 from web_elements import modules_xpath, repertoire_module_xpath, ps_text_locator_tag
 
 use_step_matcher("re")

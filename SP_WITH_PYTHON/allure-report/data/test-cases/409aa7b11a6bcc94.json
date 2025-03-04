@@ -1,12 +1,12 @@
 {
-  "uid" : "a825f84a4927cd20",
+  "uid" : "409aa7b11a6bcc94",
   "name" : "Navigate to Supported Product and assert text -- @1.1 ",
   "fullName" : "sp_assessment: Navigate to Supported Product and assert text",
   "historyId" : "a5d7a4a5025d39fc1eaf5e5b8ea898fb",
   "time" : {
-    "start" : 1731862529262,
-    "stop" : 1731862535316,
-    "duration" : 6054
+    "start" : 1741088909407,
+    "stop" : 1741088916060,
+    "duration" : 6653
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,9 +17,9 @@
     "steps" : [ {
       "name" : "When user navigates to https://www.matchingengine.com/ user can see navigation bar and item Modules",
       "time" : {
-        "start" : 1731862529263,
-        "stop" : 1731862530969,
-        "duration" : 1706
+        "start" : 1741088909408,
+        "stop" : 1741088911131,
+        "duration" : 1723
       },
       "status" : "passed",
       "steps" : [ ],
@@ -32,9 +32,9 @@
     }, {
       "name" : "And user clicks on Modules and clicks on Repertoire Management Module from dropdown menu",
       "time" : {
-        "start" : 1731862530969,
-        "stop" : 1731862533833,
-        "duration" : 2864
+        "start" : 1741088911131,
+        "stop" : 1741088914407,
+        "duration" : 3276
       },
       "status" : "passed",
       "steps" : [ ],
@@ -47,9 +47,9 @@
     }, {
       "name" : "And user redirected to corresponding page https://www.matchingengine.com/repertoire-management-module/",
       "time" : {
-        "start" : 1731862533834,
-        "stop" : 1731862533840,
-        "duration" : 6
+        "start" : 1741088914407,
+        "stop" : 1741088914415,
+        "duration" : 8
       },
       "status" : "passed",
       "steps" : [ ],
@@ -62,9 +62,9 @@
     }, {
       "name" : "And user scrolls down to Additional Features",
       "time" : {
-        "start" : 1731862533841,
-        "stop" : 1731862533854,
-        "duration" : 13
+        "start" : 1741088914415,
+        "stop" : 1741088914429,
+        "duration" : 14
       },
       "status" : "passed",
       "steps" : [ ],
@@ -77,9 +77,9 @@
     }, {
       "name" : "And user clicks on Products Supported",
       "time" : {
-        "start" : 1731862533854,
-        "stop" : 1731862535283,
-        "duration" : 1429
+        "start" : 1741088914429,
+        "stop" : 1741088916026,
+        "duration" : 1597
       },
       "status" : "passed",
       "steps" : [ ],
@@ -92,9 +92,9 @@
     }, {
       "name" : "Then user can see the text There are several types of Product Supported:",
       "time" : {
-        "start" : 1731862535283,
-        "stop" : 1731862535316,
-        "duration" : 33
+        "start" : 1741088916026,
+        "stop" : 1741088916060,
+        "duration" : 34
       },
       "status" : "passed",
       "steps" : [ ],
@@ -154,6 +154,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a825f84a4927cd20.json",
+  "source" : "409aa7b11a6bcc94.json",
   "parameterValues" : [ "https://www.matchingengine.com/", "https://www.matchingengine.com/repertoire-management-module/", "Repertoire Management Module", "Modules", "There are several types of Product Supported:" ]
 }
