@@ -5,13 +5,13 @@
     "name" : "sp_assessment",
     "children" : [ {
       "name" : "Navigate to Supported Product and assert text -- @1.1 ",
-      "uid" : "409aa7b11a6bcc94",
+      "uid" : "d2ac96cae819e601",
       "parentUid" : "fcad5ce9863cea6956fda2c1ea4d203f",
       "status" : "passed",
       "time" : {
-        "start" : 1741088909407,
-        "stop" : 1741088916060,
-        "duration" : 6653
+        "start" : 1741793535137,
+        "stop" : 1741793540843,
+        "duration" : 5706
       },
       "flaky" : false,
       "newFailed" : false,

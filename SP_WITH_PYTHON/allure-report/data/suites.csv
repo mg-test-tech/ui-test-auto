@@ -1,2 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Mar 04 11:48:29 GMT 2025","Tue Mar 04 11:48:36 GMT 2025","6653","","","","","","Navigate to Supported Product and assert text -- @1.1 ",""
+"passed","Wed Mar 12 15:32:15 GMT 2025","Wed Mar 12 15:32:20 GMT 2025","5706","","","","","","Navigate to Supported Product and assert text -- @1.1 ",""

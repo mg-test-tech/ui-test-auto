@@ -2,7 +2,8 @@ import datetime
 
 ts = datetime.datetime.now()
 
-chrome_location = './local_execs/chromedriver'
+# chrome_location = './local_execs/chromedriver'
+chrome_location = '/usr/bin/chromedriver'
 landing_page = 'https://www.matchingengine.com'
 logs_dir = './data/logs/'
 results_dir = '/data/results/'

@@ -1,0 +1,159 @@
+{
+  "uid" : "d2ac96cae819e601",
+  "name" : "Navigate to Supported Product and assert text -- @1.1 ",
+  "fullName" : "sp_assessment: Navigate to Supported Product and assert text",
+  "historyId" : "a5d7a4a5025d39fc1eaf5e5b8ea898fb",
+  "time" : {
+    "start" : 1741793535137,
+    "stop" : 1741793540843,
+    "duration" : 5706
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "When user navigates to https://www.matchingengine.com/ user can see navigation bar and item Modules",
+      "time" : {
+        "start" : 1741793535138,
+        "stop" : 1741793536404,
+        "duration" : 1266
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user clicks on Modules and clicks on Repertoire Management Module from dropdown menu",
+      "time" : {
+        "start" : 1741793536404,
+        "stop" : 1741793539138,
+        "duration" : 2734
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user redirected to corresponding page https://www.matchingengine.com/repertoire-management-module/",
+      "time" : {
+        "start" : 1741793539139,
+        "stop" : 1741793539147,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user scrolls down to Additional Features",
+      "time" : {
+        "start" : 1741793539147,
+        "stop" : 1741793539161,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And user clicks on Products Supported",
+      "time" : {
+        "start" : 1741793539161,
+        "stop" : 1741793540808,
+        "duration" : 1647
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user can see the text There are several types of Product Supported:",
+      "time" : {
+        "start" : 1741793540808,
+        "stop" : 1741793540842,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "sp_assessment"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "URL",
+    "value" : "https://www.matchingengine.com/"
+  }, {
+    "name" : "app_page_url",
+    "value" : "https://www.matchingengine.com/repertoire-management-module/"
+  }, {
+    "name" : "menu_item",
+    "value" : "Repertoire Management Module"
+  }, {
+    "name" : "navbar_item",
+    "value" : "Modules"
+  }, {
+    "name" : "product_supported_text",
+    "value" : "There are several types of Product Supported:"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d2ac96cae819e601.json",
+  "parameterValues" : [ "https://www.matchingengine.com/", "https://www.matchingengine.com/repertoire-management-module/", "Repertoire Management Module", "Modules", "There are several types of Product Supported:" ]
+}

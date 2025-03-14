@@ -74,6 +74,3 @@ def assert_products_supported_text(context, product_supported_text):
     elements = all_by_tag(context, ps_text_locator_tag)
     element_text = elements[7].text
     assert element_text == product_supported_text
-
-
-
